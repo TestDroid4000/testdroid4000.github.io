@@ -31,7 +31,7 @@ function hablar(mensaje) {
 camara = document.getElementById("camara");
 Webcam.set({
     width: 360,
-    height: 250,
+    height: 270,
     image_format: "jpeg",
     jpeg_quality: 100
 });
