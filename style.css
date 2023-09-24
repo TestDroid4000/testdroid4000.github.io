@@ -12,6 +12,11 @@ body {
     border: 1px dotted white;
     background-size: 360px 250px;
     border-radius: 20px;
+    box-sizing: border-box;
+}
+
+video, #foto{
+    border-radius: 20px;
 }
 
 #camara {
@@ -46,6 +51,6 @@ body {
     vertical-align: middle;
 }
 
-.text-danger{
+.instrucciones{
     color: cyan;
 }
